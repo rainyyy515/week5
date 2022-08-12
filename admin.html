@@ -1,10 +1,43 @@
----
-title: Admin
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Admin</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+    crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/d556ee0254.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/style/all.css" />
+  </head>
 
+  <body>
+    <div class="d-flex container">
+      <div class="box d-flex flex-column">
+        <div>
+          <img src="./assets/images/logo-ANSWER.svg" alt="#" class="w-38 ml-8 pt-8"/>
+          <ul class="list-unstyled">
+            <li><a href="#" class="pl-8"><i class="fa-solid fa-chart-line mr-4 mt-8"></i>Dashboard</a></li>
+            <li><a href="#" class="pl-8"><i class="fa-regular fa-circle-question mr-4 mt-3"></i>Question</a></li>
+            <li><a href="./index.html" class="pl-8"><i class="fa-solid fa-child mr-4 mt-3"></i>Assignment</a></li>
+            <li><a href="#" class="pl-8"><i class="fa-solid fa-bag-shopping mr-4 mt-3"></i>Course</a></li>
+            <li><a href="./admin.html" class="pl-8"><i class="fa-solid fa-battery-full mr-4 mt-3"></i>Admin</a></li>
+            <li><a href="#" class="pl-8"><i class="fa-solid fa-bed-pulse mr-4 mt-3"></i>Settings</a></li>
+          </ul>
+        </div>
+        <div class="d-flex px-8 pb-8">
+          <img src="./assets/images/andychen.jpeg" alt="照片" class="border-circle w-10 h-10 mr-4"/>
+          <div>
+            <p class="mb-0">Andy Chen</p>
+            <small class="mb-0 text-gray">andy0401@mail.com</small>
+          </div>
+        </div>
+      </div>
+      
 <div class="p-8 w-246">
   <div class="d-flex justify-content-between align-items-center">
     <!-- Admin -->
@@ -371,3 +404,10 @@ current: index
     </div>
   </div>
 </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="./assets/js/all.js"></script>
+  </body>
+</html>
